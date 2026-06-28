@@ -1,63 +1,74 @@
 # Product Overview — Core Truth
 
-> Single source of truth for the product. Early-stage: the core shape, the four roles, and
-> the name are confirmed, but a few details (final mechanics, genre lean, branding polish)
-> are still being defined in onboarding and are marked **(provisional)** below. Update as
-> those land.
+> Single source of truth for the product. The concept, the four roles, the name, and the
+> day-one core loop are **confirmed and built** (initial MVP generated). A few details
+> (the specific property / deployment context) are still settling and are marked
+> **(provisional)** below.
 
 ## What it is
 
 **Cinq** (French for *five*, as in five-star) is a **browser-based, multi-role five-star
-hotel experience**. Rather than one player running everything, the hotel is lived through
-**four distinct roles** — **VIP, Chef, Employee, and Customer** — each with its own view and
-its own actions. Played entirely in the web browser; no install.
+hotel experience app**. Rather than one person running everything, the hotel is lived
+through **four distinct roles** — **VIP, Chef, Employee, and Customer** — each with its own
+view and its own actions. It runs entirely in the web browser; no install.
 
-> Genre lean (provisional): the user describes it as a "hotel game," so it carries a
-> playful, premium feel — but it centers on **real interaction between the four roles**
-> (guests asking, staff delivering), not a solo builder. Whether it skews more toward a
-> for-fun role-play game or a working hotel-floor tool is being confirmed in onboarding.
+It began as a "hotel game" in the user's words and keeps a playful, premium feel — but it
+is a **real, working role-based app**: guests ask, staff deliver, status flows back, live.
 
-## The four roles (confirmed)
+## The four roles
 
-- **Customer** — a guest; requests and books the hotel's experiences and services.
-- **VIP** — a premium guest; the same as a customer, but with **priority and perks**.
-- **Employee** — floor staff; **receives and handles** guest requests across the hotel.
-- **Chef** — the kitchen; **sees and fulfills** food and service orders.
+- **Customer** — a guest; requests and books the hotel's experiences and services from
+  their own view, and tracks status live.
+- **VIP** — a premium guest; the same as a Customer, but requests carry **priority** (and
+  perks).
+- **Employee** — floor staff; **receives and handles** guest/floor requests across the hotel.
+- **Chef** — the kitchen; **sees and fulfills** dining / food orders.
 
-## The core loop (provisional)
+## The core loop (the heartbeat — built)
 
-A **request flows from a Customer or VIP and lands live in front of the right Employee or
-Chef**, who fulfills it. This guest→staff **request-and-fulfillment loop** is the heartbeat
-of the product — the hotel feels alive because someone asks and someone delivers, in real
-time. Exact mechanics are being confirmed in onboarding.
+A request flows from a Customer or VIP and lands live in front of the right staffer, who
+fulfills it:
 
-## Honest scope (visual fidelity)
+1. **Request** — a Customer or VIP picks a category (**dining, spa, amenities, service**)
+   and an item, optionally adds a note, and places the request.
+2. **Route** — it routes by category in real time: the **Chef** sees dining/kitchen orders;
+   the **Employee** sees floor/guest requests. **VIP** requests surface first, with a gold
+   priority badge.
+3. **Resolve** — staff advance status **received → in progress → fulfilled**, and the
+   guest's tracker reflects it live.
 
-The experience targets **slick, stylized, polished web visuals** — clean, charming, and
-presentation-ready — **not** console-grade / photorealistic AAA 3D. This boundary is
-deliberate: something genuinely delightful and shippable in the browser rather than
-overselling movie-grade graphics.
+This guest→staff request-and-fulfillment loop is the product. It lives or dies on a request
+reaching the correct fulfiller instantly with status returning to the guest.
 
-## Who it's for (provisional)
+## What v1 delivers
 
-People who take on one of the **four roles** in the hotel world — guests (Customer / VIP)
-on one side, staff (Employee / Chef) on the other. Whether the audience is for-fun players
-or a real hotel's guests-and-team is being confirmed in onboarding. Treat as a
-broadly-approachable, premium-feeling audience until specified.
+Four role-based views behind a role-picker entry (`/customer`, `/vip`, `/employee`,
+`/chef`), the live request loop above, VIP priority surfacing, and live status tracking.
+Owner-customizable values (app name, tagline, request categories and their routing,
+bookable amenities, brand palette/fonts, refresh interval) flow through configuration.
 
-## Tone & brand (provisional)
+## Who it's for
+
+A **five-star (or aspiring-luxury) hotel** and the people in its world — its **guests**
+(Customer, VIP) on one side and its **staff** (Employee, Chef) on the other: premium and
+guest-facing on one side, fast and operational on the other. (provisional: the specific
+property / deployment context is still being confirmed.)
+
+## Tone & brand
 
 - **Personality**: playful, polished, aspirational luxury — "step into a five-star world."
-- **Feel**: cozy-premium; satisfying feedback; calm, confident, not cluttered.
-- **Palette**: deep **navy/teal** base with a warm **gold** accent (five-star luxury cue),
-  as set by the Designer.
+- **Feel**: cozy-premium; calm, confident, not cluttered; satisfying real-time feedback.
+- **Palette**: deep **navy/teal** base with a warm **gold** accent (the five-star luxury
+  cue).
+- **Typography**: **Cormorant Garamond** headings + **Lato** body (refined, hospitable).
 - **Name**: **Cinq** (French for *five* — the five-star cue).
 
 ## Scope / strategic principles
 
 - **The four roles are the spine.** VIP, Chef, Employee, Customer define the whole product.
-- **Request → fulfillment loop first.** A guest asks; the right staffer delivers, live. That
-  single loop is the MVP; everything else is secondary.
+- **The request → fulfillment loop first.** A guest asks; the right staffer delivers, live,
+  with status back to the guest. That single loop is the MVP; everything else is secondary.
+- **Real-time over batch.** Requests land in front of the right person live, not on a refresh.
+- **Priority for VIP.** VIP requests visibly jump the queue.
 - **Five-star luxury tone throughout.** Premium, warm, and inviting in every role's view.
-- **Stylized over photoreal.** Lean into charm and clarity, not graphical horsepower.
-- **Browser-native, instant play.** Low friction to start; no install.
+- **Browser-native, instant access.** Low friction to start; no install.
