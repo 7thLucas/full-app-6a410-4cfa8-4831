@@ -17,6 +17,14 @@ view and its own actions. It runs entirely in the web browser; no install.
 It began as a "hotel game" in the user's words and keeps a playful, premium feel — but it
 is a **real, working role-based app**: guests ask, staff deliver, status flows back, live.
 
+**Where it's heading (in progress).** The confirmed next direction is to lift Cinq out of
+flat screens and into an **explorable stylized-luxe 3D hotel** — guests move through
+navigable 3D spaces (e.g. lobby, pool deck) and place and track their requests from inside
+the world. The look is deliberately **stylized-luxe, not photoreal** (clean, warm,
+charming premium render — navy/teal + gold), so it feels five-star without tipping into
+uncanny. The four roles and the live request loop carry over unchanged; the 3D world is the
+new medium they're lived through.
+
 ## The four roles
 
 - **Customer** — a guest; requests and books the hotel's experiences and services from
