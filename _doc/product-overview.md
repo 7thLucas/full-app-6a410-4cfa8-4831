@@ -1,1 +1,22 @@
-Dot, dot, dot, dot, dot, dot, dot, dot     Huh? I think they only listen to you. Up in this website. With AI. Up in is A-P-I-N. Up in. C- c- c- c- c- c- Calvin lips. C- c- c- c- c- Calvin lips. Calvin lips. Calvin lips. Wait. Calvin website. That's correct. Yes. Oh! Oh. Nah. What? What are you talking about? Hello. Oh. Oh. Can I go to Bandung? Bandung. Yeah, yeah, Bandung. That's correct. No, it's not. Actually, nah, it's not. What? AI. AI. AI. Technology. Disruption. Calvin. Algorithm. C- c- c- c- c- c- c- c- c- c- c- c- c- c- c- c- c
+# Product Overview
+
+> Status: v0 — seed captured, scope being finalized during onboarding. Update as scoping answers land.
+
+## What it is
+A digital app for a **five-star (luxury) hotel**. The confirmed seed is the property type and quality bar; the precise product shape is being defined through onboarding scoping.
+
+## Working hypothesis (not yet confirmed)
+The leading direction is a **guest-experience app** that owns the stretch between booking and check-out — e.g. room booking, concierge requests, and in-stay service — replacing phone-call and front-desk scramble with a polished self-serve experience. This is a hypothesis to validate with the user, not settled scope.
+
+## Brand & tone
+Premium, refined, calm. Visual and verbal tone should read like a luxury hospitality brand: elegant, understated, high-trust. No clutter; generous whitespace; restraint over flash.
+
+## To be confirmed (scoping in progress)
+- **Primary user** — luxury hotel guests, or hotel staff/operations? (decides the whole app)
+- **Day-one job** — the single thing the app must do brilliantly first.
+- **Name** — product name not yet chosen.
+
+## Strategic principles
+- Every screen should feel worthy of a five-star property; quality of experience is the product.
+- Build the one highest-value job first; resist breadth until the core moment is excellent.
+- Keep the core truth honest — do not encode invented specifics ahead of user confirmation.
