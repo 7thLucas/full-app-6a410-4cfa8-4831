@@ -1,9 +1,11 @@
 # Product Overview — Core Truth
 
 > Single source of truth for the product. The concept, the four roles, the name, and the
-> day-one core loop are **confirmed and built** (initial MVP generated). A few details
-> (the specific property / deployment context) are still settling and are marked
-> **(provisional)** below.
+> day-one core loop are **confirmed and built** (initial MVP generated). The next
+> confirmed direction — turning the flat role views into an **explorable stylized-luxe 3D
+> hotel** — is **confirmed and in progress (not yet built)** and is marked **(in progress)**
+> below. A few details (the specific property / deployment context) are still settling and
+> are marked **(provisional)**.
 
 ## What it is
 
