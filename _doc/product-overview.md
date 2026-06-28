@@ -82,3 +82,7 @@ property / deployment context is still being confirmed.)
 - **Priority for VIP.** VIP requests visibly jump the queue.
 - **Five-star luxury tone throughout.** Premium, warm, and inviting in every role's view.
 - **Browser-native, instant access.** Low friction to start; no install.
+- **Stylized-luxe 3D, not photoreal (in progress).** The hotel becomes an explorable 3D
+  world guests move through and request from — charming premium render over realism, kept
+  lean enough to load instantly in the browser. The four roles and request loop are
+  preserved inside it.
