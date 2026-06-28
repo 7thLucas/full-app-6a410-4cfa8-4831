@@ -49,9 +49,9 @@ broadly-approachable, premium-feeling audience until specified.
 
 - **Personality**: playful, polished, aspirational luxury — "step into a five-star world."
 - **Feel**: cozy-premium; satisfying feedback; calm, confident, not cluttered.
-- **Working palette**: deep navy base with a warm **gold** accent (five-star luxury cue) —
-  provisional until the Designer sets final branding.
-- **Name**: **(TBD — being chosen in onboarding).**
+- **Palette**: deep **navy/teal** base with a warm **gold** accent (five-star luxury cue),
+  as set by the Designer.
+- **Name**: **Cinq** (French for *five* — the five-star cue).
 
 ## Scope / strategic principles
 
