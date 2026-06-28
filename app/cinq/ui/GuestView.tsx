@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
-import { Sparkles, Send } from "lucide-react";
+import { Link } from "react-router";
+import { Sparkles, Send, Compass } from "lucide-react";
 import { cn } from "~/lib/utils";
 import { useConfigurables } from "~/modules/configurables";
 import type {
@@ -93,16 +94,25 @@ export function GuestView({ role }: { role: GuestRole }) {
             ? "Request anything — your wishes are routed to our staff with priority."
             : "Browse our experiences and send a request to our staff. We'll keep you posted live."}
         </p>
-        <div className="mt-5 max-w-md">
-          <label className="mb-1.5 block text-xs uppercase tracking-wider text-muted-foreground">
-            Your name
-          </label>
-          <input
-            value={name}
-            onChange={(e) => save(e.target.value)}
-            placeholder="Enter your name to begin"
-            className="w-full rounded-lg border border-input bg-secondary px-4 py-3 text-foreground placeholder:text-muted-foreground/70 focus:border-primary focus:outline-none focus:ring-1 focus:ring-ring"
-          />
+        <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-end">
+          <div className="max-w-md flex-1">
+            <label className="mb-1.5 block text-xs uppercase tracking-wider text-muted-foreground">
+              Your name
+            </label>
+            <input
+              value={name}
+              onChange={(e) => save(e.target.value)}
+              placeholder="Enter your name to begin"
+              className="w-full rounded-lg border border-input bg-secondary px-4 py-3 text-foreground placeholder:text-muted-foreground/70 focus:border-primary focus:outline-none focus:ring-1 focus:ring-ring"
+            />
+          </div>
+          <Link
+            to={`/explore/${role}`}
+            className="inline-flex items-center justify-center gap-2 rounded-lg border border-primary/50 bg-primary/10 px-5 py-3 font-medium text-primary transition-colors hover:bg-primary/20"
+          >
+            <Compass className="h-4 w-4" />
+            Explore in 3D
+          </Link>
         </div>
       </section>
 

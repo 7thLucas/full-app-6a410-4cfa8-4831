@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Crown, ConciergeBell, ChefHat, UserRound } from "lucide-react";
+import { Crown, ConciergeBell, ChefHat, UserRound, Compass } from "lucide-react";
 import { useConfigurables } from "~/modules/configurables";
 
 interface RoleCard {
@@ -113,7 +113,23 @@ export default function EntryPage() {
           ))}
         </section>
 
-        <footer className="mt-12 text-center text-xs uppercase tracking-[0.3em] text-muted-foreground/70">
+        <div className="mt-10 flex flex-col items-center gap-3">
+          <Link
+            to="/explore/customer"
+            className="group inline-flex items-center gap-2 rounded-full border border-primary/50 bg-primary/10 px-6 py-3 font-medium text-primary transition-all hover:-translate-y-0.5 hover:bg-primary/20 hover:shadow-[0_18px_40px_-20px_rgba(200,162,75,0.6)]"
+          >
+            <Compass className="h-5 w-5" strokeWidth={1.5} />
+            Step into the 3D hotel
+            <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
+              →
+            </span>
+          </Link>
+          <p className="text-[11px] uppercase tracking-[0.28em] text-muted-foreground/70">
+            Explorable stylized-luxe lobby &amp; pool deck
+          </p>
+        </div>
+
+        <footer className="mt-10 text-center text-xs uppercase tracking-[0.3em] text-muted-foreground/70">
           Browser-native · No install · Five-star, always
         </footer>
       </div>
