@@ -1,15 +1,16 @@
 # Product Overview — Core Truth
 
-> Single source of truth for the product. Early-stage: the core shape is confirmed, but a
-> few details (final mechanics, genre lean, name, branding) are still being defined in
-> onboarding and are marked **(provisional)** below. Update as those land.
+> Single source of truth for the product. Early-stage: the core shape, the four roles, and
+> the name are confirmed, but a few details (final mechanics, genre lean, branding polish)
+> are still being defined in onboarding and are marked **(provisional)** below. Update as
+> those land.
 
 ## What it is
 
-A **browser-based, multi-role five-star hotel experience**. Rather than one player running
-everything, the hotel is lived through **four distinct roles** — **VIP, Chef, Employee, and
-Customer** — each with its own view and its own actions. Played entirely in the web browser;
-no install.
+**Cinq** (French for *five*, as in five-star) is a **browser-based, multi-role five-star
+hotel experience**. Rather than one player running everything, the hotel is lived through
+**four distinct roles** — **VIP, Chef, Employee, and Customer** — each with its own view and
+its own actions. Played entirely in the web browser; no install.
 
 > Genre lean (provisional): the user describes it as a "hotel game," so it carries a
 > playful, premium feel — but it centers on **real interaction between the four roles**
